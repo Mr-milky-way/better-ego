@@ -2492,7 +2492,7 @@ document.getElementById("egoSelenite").addEventListener("click", function(e) {
       breakoutButton.addEventListener('click', () => {
         const confirmMessage = "WARNING: When the game ends, the page WILL refresh forcefully.";
         if(confirm(confirmMessage)) {
-          const scriptUrl = 'https://raw.githubusercontent.com/dragon731012/-WORKING-bookmarklets-and-games/main/games/breakout%20(by%20me).js';
+          const scriptUrl = 'https://raw.githubusercontent.com/Mr-milky-way/Ego-modded/main/breakout.js';
           fetch(scriptUrl)
             .then(response => response.text())
             .then(scriptContent => {
