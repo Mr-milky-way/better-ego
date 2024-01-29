@@ -2535,7 +2535,7 @@ document.getElementById("egoSelenite").addEventListener("click", function(e) {
     const dinoGameButton = document.querySelector('#DinoGameCloaked');
     
     dinoGameButton.addEventListener('click', () => {
-      const gameUrl = 'https://yeahbread.github.io/Ego-Menu-Bookmarklets/ChromeDino(dragon731012).html';
+      const gameUrl = 'https://mr-milky-way.github.io/Dino/';
       const htmlContent = `<iframe src="${gameUrl}" style="border:0;width:100%;height:100%"></iframe>`;
       const width = 800;
       const height = 600;
