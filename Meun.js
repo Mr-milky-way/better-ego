@@ -2512,7 +2512,7 @@ document.getElementById("egoSelenite").addEventListener("click", function(e) {
       if (confirmation) {
         const s = document.createElement('script');
         s.type = 'text/javascript';
-        s.src = 'https://blog.roysolberg.com/js/dom2.min.js';
+        s.src = 'https://raw.githubusercontent.com/Mr-milky-way/Ego-modded/main/AsteroidGame.js';
         s.onerror = (event) => {
           console.error('Error loading script:', event);
           alert('Failed to load the script. The site\'s Content Security Policy might be blocking it. Feel free to try again later.');
