@@ -48,7 +48,7 @@ javascript: (function() {
           width: 8vmax;
           height: 8vmax;
           background-color: transparent;
-          z-index: 9999;
+          z-index: 99999999;
           transition: background-color 0.3s, width 0.3s, height 0.3s;
       }
       .EgoMenuContainer {
@@ -59,7 +59,7 @@ javascript: (function() {
           border: 1vmin solid #444;
           padding: 10px;
           text-align: center;
-          z-index: 9999;
+          z-index: 99999999;
           transition: bottom 0.3s;
           color: #fff;
           width: 25vmax;
